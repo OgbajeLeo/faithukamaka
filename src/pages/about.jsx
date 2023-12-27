@@ -21,7 +21,7 @@ const About = () => {
           </div>
           <div className='p-4'>
             <p className="text-gray-700 text-lg mb-4 text-justify">
-              Hi, I'm UKAMAKA,George Faith, a dedicated freelance content writer based in Nigeria. With a passion for storytelling and a love for crafting compelling narratives, I bring a unique blend of creativity and expertise to every project I undertake.
+              Hi, I'm GEORGE,Amaka Faith, a dedicated freelance content writer based in Nigeria. With a passion for storytelling and a love for crafting compelling narratives, I bring a unique blend of creativity and expertise to every project I undertake.
             </p>
             <p className="text-gray-700 text-lg mb-4">
               Over the years, I've honed my skills in Content Writing and Voice Over, producing content that not only informs but also resonates with the target audience. My writing journey has allowed me to collaborate with a diverse range of clients, from startups to established businesses, helping them communicate their brand voice effectively.
