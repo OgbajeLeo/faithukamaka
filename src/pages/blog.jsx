@@ -1,7 +1,9 @@
 import React from 'react'
+import Navbar from './Navbar';
+import Footer from './footer';
 
-const RecentWorks = () => {
-    const projects = [
+const Blog = () => {
+    const blog = [
         {
           title: "Blog Post: The Art of Storytelling",
           img:'https://www.chidinmaofoegbu.com/wp-content/uploads/2023/08/20230809_111536_0000-768x768.png',
@@ -17,16 +19,35 @@ const RecentWorks = () => {
           title: "Article: Digital Marketing Trends",
           description: "Researched and wrote an informative article on the latest digital marketing trends shaping the industry.",
           link: "https://example.com/articles/digital-marketing-trends",
+        }
+        ,
+        {
+          title: "Article: Digital Marketing Trends",
+          description: "Researched and wrote an informative article on the latest digital marketing trends shaping the industry.",
+          link: "https://example.com/articles/digital-marketing-trends",
+        },
+        {
+          title: "Article: Digital Marketing Trends",
+          description: "Researched and wrote an informative article on the latest digital marketing trends shaping the industry.",
+          link: "https://example.com/articles/digital-marketing-trends",
+        },
+        {
+          title: "Article: Digital Marketing Trends",
+          description: "Researched and wrote an informative article on the latest digital marketing trends shaping the industry.",
+          link: "https://example.com/articles/digital-marketing-trends",
         },
         // Add more projects as needed
       ];
     
       return (
+        <>
+        <Navbar />
+
         <section className="py-16 bg-gray-100">
           <div className="container mx-auto p-4">
-            <h2 className="text-5xl font-bold mb-8 text-center">Recent Work 📝</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {projects.map((project, index) => (
+            <h2 className="text-5xl font-bold mb-8 text-center">Blogs</h2>
+            <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4">
+              {blog.map((project, index) => (
                 <div key={index} className="bg-gray-200 p-6 rounded-md shadow-4xl">
                   <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                   <img 
@@ -47,7 +68,10 @@ const RecentWorks = () => {
             </div>
           </div>
         </section>
+
+        <Footer />
+        </>
   )
 }
 
-export default RecentWorks
+export default Blog

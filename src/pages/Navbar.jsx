@@ -78,7 +78,7 @@ const Navbar = () => {
                 {isProgramsOpen && (
                   <ul>
                     <li className='px-6 py-3 hover:bg-blue-600'>
-                      <Link to='/prefellowship'>Content Writing</Link>
+                      <Link to='/blog'>Content Writing</Link>
                     </li>
                     <li className='px-6 py-3 hover:bg-blue-600'>
                       <Link to='/fellowship'>Voiceover</Link>
@@ -146,7 +146,7 @@ const Navbar = () => {
         {isProgramsOpen && (
           <ul className='absolute left-0 top-full bg-white  mt-2 w-48 py-2 z-10 border rounded-lg shadow-lg'>
             <li className='px-4 py-2 hover:bg-blue-300'>
-              <Link to='/prefellowship'>
+              <Link to='/blog'>
                 <h5>Content Writing</h5>
               </Link>
             </li>

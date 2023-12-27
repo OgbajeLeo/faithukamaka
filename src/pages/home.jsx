@@ -24,7 +24,7 @@ const Home = (props) => {
       <header className="h-screen flex items-center justify-center bg-cover" style={{ backgroundImage: 'url("")' }}>
        <div class="text-center">
       <h1 class="text-4xl md:text-6xl font-bold mb-4">GEORGE Amaka Faith</h1>
-      <p class="text-lg md:text-xl mb-8">Content Creator | Creative Mind | Voice Over Artiste</p>
+      <p class="text-lg md:text-xl mb-8"><lee>Content Creator | Creative Mind | Voice Over Artiste</lee></p>
       <a href="#portfolio" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">View Portfolio</a>
     </div>
   </header>
@@ -32,8 +32,8 @@ const Home = (props) => {
   
 
     <section className="py-16 bg-white">
-      <div className="container mx-auto">
-        <h2 className="text-5xl font-bold mb-8 text-center">What I Offer</h2>
+      <div className="container mx-auto text-center">
+        <h2 className="text-5xl font-bold mb-8 text-center">What I Offer 🧰</h2>
         <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-2">
           {/* Service Card 1 */}
           <div className="bg-blue-900 p-6 rounded-md shadow-md text-white m-4">
@@ -90,7 +90,7 @@ const Home = (props) => {
 
         {/* Partners Section */}
         <div>
-          <h2 className="text-3xl font-semibold mb-4">Partners</h2>
+          <h2 className="text-3xl font-semibold mb-4">Partners 👩‍👩‍👧‍👧</h2>
           <ul className="list-disc pl-6">
             {partners.map((partner, index) => (
               <li key={index} className="text-gray-700">{partner}</li>
