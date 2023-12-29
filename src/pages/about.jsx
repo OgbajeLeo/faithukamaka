@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from './Navbar'
 import Footer from './footer'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  });
+
   return (
     <>
     <Navbar />
@@ -11,12 +19,15 @@ const About = () => {
       <div className="container mx-auto">
         <h2 className="text-5xl font-bold mb-8 text-center">About Me</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-          <div>
+          <div className='hidden lg:block'>
             <img
             src="https://i.ibb.co/fkR6wwz/IMG-20231226-WA0019-removebg-preview.png"
             border="0" 
             alt="Profile"
             className="w-full h-[70%] rounded-md ml-8"
+            data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"
             />
           </div>
           <div className='p-4'>

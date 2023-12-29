@@ -1,7 +1,9 @@
-import React, { } from 'react'
+import React, { useEffect } from 'react'
 import Navbar from './Navbar'
 import Footer from './footer'
 import RecentWorks from './recentWorks';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Home = (props) => {
   const clients = [
@@ -18,11 +20,18 @@ const Home = (props) => {
     // Add more partners as needed
   ];
     
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  });
+
   return (
     <div>
       <Navbar />
       <header className="h-screen flex items-center justify-center bg-cover" style={{ backgroundImage: 'url("")' }}>
-       <div class="text-center">
+       <div class="text-center" data-aos="zoom-in"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
       <h1 class="text-4xl md:text-6xl font-bold mb-4">GEORGE Amaka Faith</h1>
       <p class="text-lg md:text-xl mb-8"><lee>Content Creator | Creative Mind | Voice Over Artiste</lee></p>
       <a href="#portfolio" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">View Portfolio</a>
@@ -91,7 +100,7 @@ const Home = (props) => {
         {/* Partners Section */}
         <div>
           <h2 className="text-3xl font-semibold mb-4">Partners 👩‍👩‍👧‍👧</h2>
-          <ul className="list-disc pl-6">
+          <ul className="list-disc pl-6" >
             {partners.map((partner, index) => (
               <li key={index} className="text-gray-700">{partner}</li>
             ))}

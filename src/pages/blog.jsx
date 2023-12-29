@@ -36,7 +36,7 @@ const Blog = () => {
           description: "Researched and wrote an informative article on the latest digital marketing trends shaping the industry.",
           link: "https://example.com/articles/digital-marketing-trends",
         },
-        // Add more projects as needed
+        
       ];
     
       return (
@@ -48,7 +48,7 @@ const Blog = () => {
             <h2 className="text-5xl font-bold mb-8 text-center">Blogs</h2>
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-4">
               {blog.map((project, index) => (
-                <div key={index} className="bg-gray-200 p-6 rounded-md shadow-4xl">
+                <div key={index} className="bg-white p-6 rounded-md shadow-4xl">
                   <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                   <img 
                   className='w-full'

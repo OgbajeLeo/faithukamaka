@@ -8,20 +8,25 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-8">
     <div className="container mx-auto text-center">
-      <p className="text-lg mb-4">Connect with me on social media:</p>
 
 <div className="flex space-x-8 text-center justify-center">
-          <Link to="https://twitter.com/your_twitter" target="_blank" rel="noopener noreferrer">
+          <Link to="https://x.com/George_Amaka" target="_blank" rel="noopener noreferrer">
           <i class="fi fi-brands-twitter text-3xl  hover:text-blue-600"></i>
           </Link>
-          <Link to="https://linkedin.com/in/your_linkedin" target="_blank" rel="noopener noreferrer">
+          <Link to="https://linkedin.com/in/Faith George" target="_blank" rel="noopener noreferrer">
             <i className="fi fi-brands-linkedin text-3xl hover:text-blue-400"></i>
           </Link>
-          <Link to="https://instagram.com/your_instagram" target="_blank" rel="noopener noreferrer">
+          <Link to="https://instagram.com/UkahFaith" target="_blank" rel="noopener noreferrer">
             <i className="fi fi-brands-instagram text-3xl hover:text-pink-500"></i>
           </Link>
         </div>
       <p className="mt-4">&copy; {year} All rights reserved.</p>
+      <small>Designed by:  
+      <Link className="text-pink-500 hover:text-pink-300"
+       to="https://linkedin.com/in/Ogbajeleo"> Ogbajeleo
+       
+       </Link>
+       </small>
     </div>
   </footer>
   )

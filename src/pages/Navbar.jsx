@@ -19,7 +19,7 @@ const Navbar = () => {
     <div>
       {/* Navbar brand should be a link */}
       <Link to='/'>
-        <span className="w-[180px] text-white text-3xl font-extrabold">George</span>
+        <span className="w-[180px] text-white text-3xl font-extrabold pl-4">George</span>
         <span className="w-[180px] text-blue-500 text-3xl">Writes </span>
       </Link>
     </div>
@@ -81,18 +81,18 @@ const Navbar = () => {
                       <Link to='/blog'>Content Writing</Link>
                     </li>
                     <li className='px-6 py-3 hover:bg-blue-600'>
-                      <Link to='/fellowship'>Voiceover</Link>
+                      <Link to='/voice'>Voiceover</Link>
                     </li>
                   </ul>
                 )}
               </li>
             
-              <li className='px-6 py-3  hover:bg-blue-500'>
+              {/* <li className='px-6 py-3  hover:bg-blue-500'>
                 <Link to='/contact'>
                   <h5>Portfolio</h5>
                 </Link>
-              </li>
-              <Link to='/cohort'>
+              </li> */}
+              <Link to='/contact'>
                 <li className='px-4 py-4 bg-blue-700 text-red-400 rounded-md  hover:bg-blue-500'>
                   <h5>CONTACT ME</h5>
                 </li>
@@ -151,7 +151,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className='px-4 py-2 hover:bg-blue-300'>
-              <Link to='/fellowship'>
+              <Link to='/voice'>
                 <h5>Voiceover</h5>
               </Link>
             </li>
@@ -159,17 +159,17 @@ const Navbar = () => {
         )}
       </ul>
       
-      <Link to='/contact'>
+      {/* <Link to='/contact'>
         <h5
           className={`relative hover:text-blue-500 cursor-pointer `}
         >
           Portfolio
         </h5>
-      </Link>
+      </Link> */}
     </div>
 
     <div className='cursor-pointer hidden lg:flex lg:px-8 lg:py-2 ml-10  text-white bg-blue-600 rounded-lg hover:bg-blue-800 '>
-      <Link to='/cohort'>
+      <Link to='/contact'>
         <h5 className='md:font-bold text-gray-300'>CONTACT ME</h5>
       </Link>
       </div>
