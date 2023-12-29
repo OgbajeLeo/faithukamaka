@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import Footer from './footer'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from 'react-router-dom';
 
 const About = () => {
 
@@ -42,10 +43,20 @@ const About = () => {
             </p>
             <p className="text-gray-700 text-lg text-justify">
               Let's work together to elevate your brand through the power of words. Feel free to reach out if you're looking for a reliable and passionate content writer who can turn your ideas into compelling stories.
-            </p>
+            </p> <br /><br />
+              {/* Call-to-action button */}
+      <Link
+          to="/contact" 
+          className="bg-blue-600 text-white py-2 px-6 rounded-full font-semibold hover:bg-blue-200 transition duration-300"
+        >
+          Get in Touch
+        </Link>
           </div>
+        
         </div>
       </div>
+      
+      
     </section>
 
      

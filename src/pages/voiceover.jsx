@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Footer from './footer'
+import { Link } from 'react-router-dom'
 
 const Voiceover = () => {
   return (<>
@@ -42,12 +43,12 @@ const Voiceover = () => {
         </p>
 
         {/* Call-to-action button */}
-        <a
-          href="/contact" // Replace with the actual link to your contact page
+        <Link
+          to="/contact" 
           className="bg-white text-blue-500 py-2 px-6 rounded-full font-semibold hover:bg-gray-200 transition duration-300"
         >
           Get in Touch
-        </a>
+        </Link>
       </div>
       <Footer />
       </>

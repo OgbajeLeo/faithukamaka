@@ -10,13 +10,16 @@ const Footer = () => {
     <div className="container mx-auto text-center">
 
 <div className="flex space-x-8 text-center justify-center">
-          <Link to="https://x.com/George_Amaka" target="_blank" rel="noopener noreferrer">
+          <Link to="https://x.com/George_Amakaa" target="_blank" rel="noopener noreferrer">
           <i class="fi fi-brands-twitter text-3xl  hover:text-blue-600"></i>
           </Link>
           <Link to="https://linkedin.com/in/Faith George" target="_blank" rel="noopener noreferrer">
             <i className="fi fi-brands-linkedin text-3xl hover:text-blue-400"></i>
           </Link>
-          <Link to="https://instagram.com/UkahFaith" target="_blank" rel="noopener noreferrer">
+          <Link to="https://facebook.com/george.faith.50" target="_blank" rel="noopener noreferrer">
+            <i className="fi fi-brands-facebook text-3xl hover:text-blue-900"></i>
+          </Link>
+          <Link to="https://instagram.com/georgefaith6" target="_blank" rel="noopener noreferrer">
             <i className="fi fi-brands-instagram text-3xl hover:text-pink-500"></i>
           </Link>
         </div>
