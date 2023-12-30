@@ -28,7 +28,7 @@ const Home = (props) => {
   return (
     <div>
       <Navbar />
-      <header className="h-screen flex items-center justify-center relative bg-cover" style={{ backgroundImage: 'url("https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/235892928_525043718774937_5885070485683189773_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeF05DQfk7S5Jz8ojXJZxU28b_xUqLsJpiZv_FSouwmmJv-cIYxG9p1mZBIa9ZCCSIWVqh7PwbbmLINZlzPzL14J&_nc_ohc=b_LrqppjwNwAX_scxNX&_nc_ht=scontent-cdg4-1.xx&oh=00_AfBb2ktuD5dcJXObYFSdJeSw5EyyG6D8uC-TeCDgGFQryA&oe=6592F15F")' }}>
+      <header className="z-[-1] h-screen flex items-center justify-center relative bg-cover" style={{ backgroundImage: 'url("https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/235892928_525043718774937_5885070485683189773_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeF05DQfk7S5Jz8ojXJZxU28b_xUqLsJpiZv_FSouwmmJv-cIYxG9p1mZBIa9ZCCSIWVqh7PwbbmLINZlzPzL14J&_nc_ohc=b_LrqppjwNwAX_scxNX&_nc_ht=scontent-cdg4-1.xx&oh=00_AfBb2ktuD5dcJXObYFSdJeSw5EyyG6D8uC-TeCDgGFQryA&oe=6592F15F")' }}>
   <div className="absolute inset-0 bg-cover filter blur-md"></div>
   <div class="text-center relative" data-aos="zoom-in" data-aos-offset="300" data-aos-easing="ease-in-sine">
     <h1 class="text-4xl md:text-6xl font-bold mb-4">GEORGE Amaka Faith</h1>
